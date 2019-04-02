@@ -1,0 +1,137 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    height: 582px;
+    text-align: center;
+    background-color: rgba(231, 189, 255, 0.774);
+    margin: auto;
+    padding: 15px;
+    width: 70%;
+    min-width: 600px;
+    text-align: center;
+}
+
+#title-div{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#title-div h1{
+    font-variant: small-caps;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#game-display{
+    background-color: #f0ffd329;
+    padding: 10px;
+    text-align: center;
+    height: 15%;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#game-display p{
+    font-weight: bold;
+}
+
+#exp-game-display{
+    font-weight: normal;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+#button-div{
+    padding: 15px 0 20px 0;
+    width: 90%;
+    margin: auto;
+    text-align: center;    
+}
+
+#button-div input{
+    height: 75px;
+    width: 125px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.play-buttons{
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 10px 25px 5px rgb(29, 7, 29);
+    background-color: rgba(252, 151, 252, 0.795);
+    padding: 3px;
+}
+
+.play-buttons:hover{
+    background-color: rgba(105, 20, 105, 0.753);
+}
+
+.play-buttons:active{
+    background-color: rgba(90, 18, 90, 0.767);
+    transform: translate(4px,7px);
+    box-shadow: 1px 3px 10px 1px rgb(29, 7, 29);
+}
+
+.line{
+    background-color: rgb(62, 2, 77);
+    height: 5px;
+    width: 85%;
+    margin: auto;
+    min-width: 500px;
+}
+
+#scores{
+    margin: auto;
+    width: 80%;
+    height: 12%;
+}
+
+#play-button-div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#play-button{
+    width: 22%;
+    margin: 25px 0 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 10px 25px 5px rgb(29, 7, 29);
+    background-color: rgba(252, 151, 252, 0.795);
+    padding: 5px 5px 1px 5px;
+}
+#play-button:hover{
+    background-color: rgba(105, 20, 105, 0.753);
+}
+#play-button:active{
+    background-color: rgba(90, 18, 90, 0.767);
+    transform: translate(4px,7px);
+    box-shadow: 1px 3px 10px 1px rgb(29, 7, 29);
+}
+
+#footer-div{
+    position: relative;
+    top: 120px;
+}
+
+#footer-div em{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/*helo*/

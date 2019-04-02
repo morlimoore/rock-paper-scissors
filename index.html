@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rock-Paper-Scissors!</title>
+    <link type = "text/css" rel = "stylesheet" href = "main.css">
+</head>
+
+<body>
+    <div id = "container">
+        <div id = "title-div">
+                <h1>Rock-Paper-Scissors Game!</h1>
+        </div>
+
+        <div id = "game-display">
+            <p id = "info0"><em>First round, select your choice</em></p>
+            <p id = "info1"></p>
+            <p id = "info2"></p>
+        </div>
+        
+
+        <div id = "button-div">
+            <input type = "image" id = "rock" class = "play-buttons" src = "rock.jpg" onclick = "buttonRock()"/>
+
+            <input type = "image" id = "paper" class = "play-buttons" src = "paper.jpg" onclick = "buttonPaper()"/>
+            
+            <input type = "image" id = "scissors" class = "play-buttons" src = "scissors.jpg" onclick = "buttonScissors()"/>
+        </div>
+
+        <div class = "line"></div>
+
+        <table id = "scores">
+            <tr>
+                <th>Player:</th>
+                <th>Computer:</th>
+            </tr>
+            <tr>
+                <th id = "player-scores">0</th>
+                <th id = "computer-scores">0</th>
+            </tr>
+        </table>
+
+        <div class = "line"></div>
+    
+    <div id = "footer-div">
+        <em>Designed by Echendu Victor Ikenna (Morlimoore)</em>
+    </div>
+    
+    </div>
+
+    
+
+
+<script src = "main.js">  
+        </script>    
+</body>
+</html>
